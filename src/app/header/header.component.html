@@ -1,0 +1,37 @@
+<body>
+
+    <div class="teste">
+
+
+        <nav class="navbar fixed-top navbar-light bg-white">
+            <div>
+                <div class="menu">
+                    <div class="container">
+                        <ul class="nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link" routerLinkActive="active" routerLink="/home">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" routerLinkActive="active" routerLink="/main">Main</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Cadastrar NovoProduto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <br /><br /><br />
+
+    <div class="container">
+        <app-cadastrar-quadras></app-cadastrar-quadras>
+
+        <router-outlet></router-outlet>
+    </div>
+
+
+</body>
